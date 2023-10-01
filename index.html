@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        nav{
+            width: 80%;
+            margin: auto;
+        }
+        ul{
+            list-style: none;
+            display: flex;
+            justify-content: flex-end;
+        }
+        ul li{
+            padding: 10px 20px;
+        }
+        .page{
+            width: 80%;
+            margin: auto;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 100px;
+        }
+        .left{
+            padding-top: 50px;
+            flex-basis: 39%;
+        }
+        span{
+            color: rgb(255, 153, 0);
+        }
+        .p{
+            color: rgb(49, 160, 250);
+            font-size: 18px;
+            padding: 0;
+            margin: 0;
+        }
+        h1{
+            font-size: 34px;
+            color: rgb(49, 160, 250);
+        }
+        .p2{
+            font-size: 17px;
+            width: 450px;
+            line-height: 1.4;
+        }
+        .btn1{
+            background-color:rgb(49, 160, 250) ;
+            border: none;
+            width: 120px;
+            padding: 8px;
+            border-radius: 5px;
+            color: white;
+            font-size: 16px;
+        }
+        .btn2{
+            width: 150px;
+            padding: 8px;
+            border-radius: 5px;
+            font-size: 16px;
+            background-color: white;
+            color: rgb(49, 160, 250);
+            border: 1px solid rgb(49, 160, 250);
+        }
+        .active{
+            color:rgb(255, 153, 0) ;
+        }
+        .right{
+            text-align: left;
+            display: flex;
+            justify-content: flex-start;
+
+        }
+        .buttons{
+            margin-top: 70px;
+        }
+        img{
+            width: 350px;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="active"><i class="fa-solid fa-house"></i>  Home</li>
+            <li><i class="fa-solid fa-user"></i>  About Me</li>
+            <li><i class="fa-solid fa-phone"></i>  Contact Me</li>
+        </ul>
+    </nav>
+    <div class="page">
+        <div class="left">
+            <p class="p">Welcome to my site</p>
+            <h1>Hi, I'm Sachina , a <br> UI UX <span>Designer.</span></h1>
+            <p class="p2">I am a focused and talented B.Sc. CSIT student currently pursuing my bachelor degree from Asian  School of Management and Technology. <span class="p">See More</span></p>
+            <div class="buttons">
+                <button class="btn1">Hire me !</button>
+                <button class="btn2">See My Project</button>
+            </div>
+        </div>
+        <div class="right">
+            <img src="img/test.jpg" alt="">
+        </div>
+    </div>
+</body>
+</html>
